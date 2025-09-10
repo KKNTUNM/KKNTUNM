@@ -3434,7 +3434,7 @@ input, select, textarea {
             position: relative;
             width: 70px;
             height: 70px;
-            border-radius: 100%;
+            border-radius: 50%;
             top: 0;
             left: 0;
             pointer-events: none;
@@ -3618,6 +3618,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
