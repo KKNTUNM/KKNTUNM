@@ -3417,8 +3417,8 @@ input, select, textarea {
             margin: 0 0 1em 0;
             overflow: hidden;
             position: relative;
-            width: 3em; /* Diperbesar sedikit untuk lingkaran */
-            height: 3em; /* Ditambahkan tinggi untuk membuat lingkaran sempurna */
+            width: 6em; /* Diperbesar sedikit untuk lingkaran */
+            height: 6em; /* Ditambahkan tinggi untuk membuat lingkaran sempurna */
             border-radius: 50%; /* Membuat kontainer menjadi lingkaran */
             background-color: #f4f4f4; /* Warna latar belakang lingkaran */
             box-shadow: 0 0 0 4px #f4f4f4, 0 0 0 8px rgba(160, 160, 160, 0.3); /* Efek frame */
@@ -3620,6 +3620,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
