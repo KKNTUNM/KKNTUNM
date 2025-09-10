@@ -3419,7 +3419,7 @@ input, select, textarea {
             position: relative;
             width: 6em; /* Diperbesar sedikit untuk lingkaran */
             height: 6em; /* Ditambahkan tinggi untuk membuat lingkaran sempurna */
-            border-radius: 100%; /* Membuat kontainer menjadi lingkaran */
+            border-radius: 50%; /* Membuat kontainer menjadi lingkaran */
             background-color: #f4f4f4; /* Warna latar belakang lingkaran */
         }
 
@@ -3446,7 +3446,7 @@ input, select, textarea {
             height: 70px;
             object-fit: cover; /* Memastikan gambar mengisi lingkaran dengan proporsi benar */
             margin-left: 0; /* Reset margin kiri */
-            border-radius: 100%; /* Memastikan gambar juga berbentuk lingkaran */
+            border-radius: 50%; /* Memastikan gambar juga berbentuk lingkaran */
         }
 
 	#intro header h2 {
@@ -3618,6 +3618,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
