@@ -3432,8 +3432,8 @@ input, select, textarea {
         #intro .logo:after {
             content: '';
             position: relative;
-            width: 60px;
-            height: 60px;
+            width: 70px;
+            height: 70px;
             border-radius: 50%;
             top: 0;
             left: 0;
@@ -3442,8 +3442,8 @@ input, select, textarea {
 
         #intro .logo img {
             display: block;
-            width: 60px;
-            height: 60px;
+            width: 70px;
+            height: 70px;
             object-fit: cover; /* Memastikan gambar mengisi lingkaran dengan proporsi benar */
             margin-left: 0; /* Reset margin kiri */
             border-radius: 50%; /* Memastikan gambar juga berbentuk lingkaran */
@@ -3618,6 +3618,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
