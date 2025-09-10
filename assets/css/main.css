@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+F@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
 /*
@@ -3433,8 +3433,8 @@ input, select, textarea {
         #intro .logo:after {
             content: '';
             position: absolute;
-            width: 455px;
-            height: 460px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             top: 0;
             left: 0;
@@ -3444,8 +3444,8 @@ input, select, textarea {
 
         #intro .logo img {
             display: block;
-            width: 455px;
-            height: 460px;
+            width: 100px;
+            height: 100px;
             object-fit: cover; /* Memastikan gambar mengisi lingkaran dengan proporsi benar */
             margin-left: 0; /* Reset margin kiri */
             border-radius: 50%; /* Memastikan gambar juga berbentuk lingkaran */
@@ -3620,6 +3620,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
