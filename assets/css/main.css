@@ -3417,11 +3417,10 @@ input, select, textarea {
             margin: 0 0 1em 0;
             overflow: hidden;
             position: relative;
-            width: 6em; /* Diperbesar sedikit untuk lingkaran */
-            height: 6em; /* Ditambahkan tinggi untuk membuat lingkaran sempurna */
+            width: 3em; /* Diperbesar sedikit untuk lingkaran */
+            height: 3em; /* Ditambahkan tinggi untuk membuat lingkaran sempurna */
             border-radius: 50%; /* Membuat kontainer menjadi lingkaran */
             background-color: #f4f4f4; /* Warna latar belakang lingkaran */
-			box-shadow: 0 0 0 4px #f4f4f4, 0 0 0 8px rgba(160, 160, 160, 0.3); /* Efek frame */
         }
 
         /* Hapus pseudo-element :before yang lama */
@@ -3432,20 +3431,19 @@ input, select, textarea {
         /* Ganti dengan pseudo-element untuk efek tambahan (opsional) */
         #intro .logo:after {
             content: '';
-            position: relative;
-            width: 70px;
-            height: 70px;
+            position: absolute;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             top: 0;
             left: 0;
-			box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
             pointer-events: none;
         }
 
         #intro .logo img {
             display: block;
-            width: 70px;
-            height: 70px;
+            width: 50px;
+            height: 50px;
             object-fit: cover; /* Memastikan gambar mengisi lingkaran dengan proporsi benar */
             margin-left: 0; /* Reset margin kiri */
             border-radius: 50%; /* Memastikan gambar juga berbentuk lingkaran */
@@ -3620,6 +3618,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
