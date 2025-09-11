@@ -3410,44 +3410,31 @@ input, select, textarea {
 
 		}
 
-  /* Intro - Diperbaiki untuk menampilkan lingkaran */
-        #intro .logo {
-            border-bottom: 0;
-            display: inline-block;
-            margin: 0 0 1em 0;
-            overflow: hidden;
-            position: relative;
-            width: 3em; /* Diperbesar sedikit untuk lingkaran */
-            height: 3em; /* Ditambahkan tinggi untuk membuat lingkaran sempurna */
-            border-radius: 50%; /* Membuat kontainer menjadi lingkaran */
-            background-color: #f4f4f4; /* Warna latar belakang lingkaran */
-        }
+  /* Intro */
 
-        /* Hapus pseudo-element :before yang lama */
-        #intro .logo:before {
-            display: none;
-        }
+#intro .logo {
+    border-bottom: 0;
+    display: inline-block;
+    margin: 0 0 1em 0;
+    overflow: hidden;
+    position: relative;
+    width: 4em;
+    height: 4em; /* Height harus sama dengan width */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    border: 2px solid #f4f4f4; /* Frame lingkaran */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow halus opsional */
+}
 
-        /* Ganti dengan pseudo-element untuk efek tambahan (opsional) */
-        #intro .logo:after {
-            content: '';
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            top: 0;
-            left: 0;
-            pointer-events: none;
-        }
+#intro .logo:before {
+    /* Nonaktifkan pseudo-element jika tidak diperlukan */
+    display: none;
+}
 
-        #intro .logo img {
-            display: block;
-            width: 50px;
-            height: 50px;
-            object-fit: cover; /* Memastikan gambar mengisi lingkaran dengan proporsi benar */
-            margin-left: 0; /* Reset margin kiri */
-            border-radius: 50%; /* Memastikan gambar juga berbentuk lingkaran */
-        }
+		#intro .logo img {
+			display: block;
+			margin-left: -0.25em;
+			width: 4.5em;
+		}
 
 	#intro header h2 {
 		font-size: 2em;
@@ -3618,6 +3605,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
