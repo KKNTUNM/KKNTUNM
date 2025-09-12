@@ -3421,8 +3421,6 @@ input, select, textarea {
     width: 4em;
     height: 4em; /* Height harus sama dengan width */
     border-radius: 50%; /* Membuat bentuk lingkaran */
-    border: 2px solid #f4f4f4; /* Frame lingkaran */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow halus opsional */
 }
 
 #intro .logo:before {
@@ -3605,6 +3603,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
